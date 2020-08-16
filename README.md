@@ -1,3 +1,5 @@
+Playing around with this demo and working through Next.js docs. Current progress: https://nextjs.org/learn/basics/assets-metadata-css/polishing-layout
+
 # Tailwind CSS example
 
 This is an example of using [Tailwind CSS](https://tailwindcss.com) in a Next.js project.
