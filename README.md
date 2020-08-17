@@ -1,4 +1,4 @@
-Playing around with this demo and working through Next.js docs. Current progress: https://nextjs.org/learn/basics/assets-metadata-css/polishing-layout
+Playing around with this demo and working through Next.js docs. Finished the tutorial and evaluating CMSs - good stuff!
 
 # Tailwind CSS example
 
