@@ -2,6 +2,8 @@ import Head from "next/head";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
+import { motion } from "framer-motion";
+import SlideIn from "../components/slideIn";
 
 const name = "Taylor";
 export const siteTitle = "Next.js Sample Website";
@@ -24,12 +26,16 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         {home ? (
           <>
-            <img
-              src="/images/profile.jpg"
-              className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-              alt={name}
-            />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <motion.div whileHover={{ scale: 1.3 }} whileTap={{ scale: 0.8 }}>
+              <img
+                src="/images/profile.jpg"
+                className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+                alt={name}
+              />
+            </motion.div>
+            <motion.div animate={{ rotate: 360 }} transition={{ duration: 2 }}>
+              <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            </motion.div>
           </>
         ) : (
           <>

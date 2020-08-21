@@ -1,5 +1,14 @@
 Playing around with this demo and working through Next.js docs. Finished the tutorial and evaluating CMSs - good stuff!
 
+## Progress:
+
+**8/20/2020**  
+Starting to implement [Framer](https://www.framer.com/api/) for motion/animation
+
+Having a lot of trouble with [Strapi](https://strapi.io/documentation/v3.x/) deleting content types after first creation and not being able to access content types. Had to blow it up and start over twice with the same issue. Somehow this screwed up my .zshrc file and had to completely reinstall node with homebrew twice.
+
+Got Strapi figured out and working. Downloaded a repo from Next.js built for Next, BUT, seems like they built it to develop quickly with other CMSs. Worthwhile to figure out and implement various headless CMS solutions to iterate quickly. Could determine if Strapi is best to work with or Sanity may still be a better bet. Also saw a demo of Prismic earlier today that looked great.
+
 # Tailwind CSS example
 
 This is an example of using [Tailwind CSS](https://tailwindcss.com) in a Next.js project.
