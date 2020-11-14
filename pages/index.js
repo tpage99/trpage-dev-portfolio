@@ -3,7 +3,6 @@ import Layout, { siteTitle } from "../components/layout";
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
-import { motion } from "framer-motion";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -30,12 +29,7 @@ export default function Home({ allPostsData }) {
       <section>
         <ul>
           {allPostsData.map(({ id, date, title }) => (
-            <motion.div
-              drag="x"
-              dragConstraints={{ left: -100, right: 100 }}
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.9 }}
-            >
+            <div>
               <li className="my-2 py-4" key={id}>
                 <Link href="/posts/[id]" as={`/posts/${id}`}>
                   <a className="text-2xl text-blue-500 font-semibold my-2 py-4">{title}</a>
@@ -45,7 +39,7 @@ export default function Home({ allPostsData }) {
                   <Date dateString={date} />
                 </small>
               </li>
-            </motion.div>
+            </div>
           ))}
         </ul>
       </section>
