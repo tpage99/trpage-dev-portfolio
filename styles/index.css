@@ -23,6 +23,10 @@
   @apply bg-orange-600 text-white border-transparent;
 }
 
+.go-link:hover {
+  @apply bg-black text-white;
+}
+
 .card {
   width: 45ch;
   height: 45ch;

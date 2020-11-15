@@ -9,14 +9,14 @@ const links = [
 export default function Nav() {
   return (
     <nav>
-      <Link href="/" className="flex">
+      <Link href="/" className="m-auto">
         <a>
-        <img
-          src="/images/profile.jpg"
-          className="inline h-24 w-auto rounded-lg transform origin-bottom-left hover:-rotate-45 transition duration-300"
-          alt="Taylor profile picture"
-        />
-        <h1 className="inline md:float-right text-4xl align-middle md:text-6xl font-bold px-6 align-middle">Taylor Page</h1>
+          <img
+            src="/images/logo.png"
+            className="inline h-24 w-auto pr-2 md:pr-6 pb-1"
+            alt="tr page logo"
+          />
+          <p className="inline align-bottom text-xl md:text-3xl font-hairline mb-0 pb-0">freelance web developer.</p>
         </a>
         </Link>
       <ul className="flex justify-around flex-wrap my-2 py-6 border-b border-gray-300">

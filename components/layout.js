@@ -28,7 +28,7 @@ export default function Layout({ children, home }) {
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
-            <a>← Back to home</a>
+            <a className="hover:font-bold">← Back to home</a>
           </Link>
         </div>
       )}
