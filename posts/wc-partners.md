@@ -1,5 +1,5 @@
 ---
-title: "WC Partners"
+title: "WC Partners - Project"
 date: "2019-06-09"
 featured: true
 ---

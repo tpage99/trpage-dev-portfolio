@@ -1,5 +1,5 @@
 ---
-title: "Local 417 Eats"
+title: "Local 417 Eats - Project"
 date: "2020-03-28"
 featured: true
 ---

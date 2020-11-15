@@ -1,5 +1,5 @@
 ---
-title: "Coffee First"
+title: "Coffee First - Project"
 date: "2019-04-04"
 featured: true
 ---

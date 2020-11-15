@@ -1,5 +1,5 @@
 ---
-title: "Kevin Lanes Catering"
+title: "Kevin Lane's Catering - Project"
 date: "2018-09-22"
 featured: true
 ---
