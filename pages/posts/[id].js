@@ -26,12 +26,13 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <article className="prose prose-lg md:prose-2xl">
-        <h1>{postData.title}</h1>
+      <article className="">
+        <h1 className="text-6xl font-extrabold mb-0">{postData.title}</h1>
+        <div  className="text-2xl text-gray-700 mt-0" >
+          <Date dateString={postData.date}/>
+        </div>
         <br />
-        <Date dateString={postData.date} />
-        <br />
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} className="prose prose-lg md:prose-2xl" />
       </article>
     </Layout>
   );
