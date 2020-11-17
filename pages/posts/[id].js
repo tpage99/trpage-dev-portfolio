@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import Layout from "../../components/layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Date from "../../components/date";
@@ -33,6 +34,11 @@ export default function Post({ postData }) {
         </div>
         <br />
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} className="prose prose-lg md:prose-2xl" />
+      </article>
+      <article className="text-center my-2 py-6">
+        <Link href="/posts">
+          <a className="btn-outline text-2xl">← Back to Blog Posts</a>
+        </Link>
       </article>
     </Layout>
   );

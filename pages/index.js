@@ -35,7 +35,7 @@ export default function Home() {
       <Featured/>
       <section className="text-center my-2 py-6">
       <Link href="/posts">
-        <a className="btn-outline text-2xl">stuff to read →</a>
+        <a className="btn-outline text-2xl">Blog Posts →</a>
       </Link>
       </section>
     </Layout>
