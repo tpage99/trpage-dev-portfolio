@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "./layout.module.css";
 import Link from "next/link";
 import Nav from "./nav"
+import Footer from "./footer"
 
 const name = "Taylor";
 export const siteTitle = "Taylor Page";
@@ -32,6 +33,7 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
+      <Footer/>
     </div>
   );
 }

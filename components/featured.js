@@ -3,6 +3,7 @@ import Link from 'next/link'
 export default function Featured() {
   return (
     <section>
+      <h2 className="text-4xl font-bold text-center">projects.</h2>
       <article className="m-4 p-4">
         <h2 className="text-2xl font-semibold">Hive of the Ozarks</h2>
         <Link href="/posts/hive-of-the-ozarks">
