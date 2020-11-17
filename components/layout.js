@@ -5,7 +5,9 @@ import Nav from "./nav"
 import Footer from "./footer"
 
 const name = "Taylor";
-export const siteTitle = "Taylor Page";
+export const siteTitle = "Taylor Page | Web Developer";
+export const siteImg = "https://res.cloudinary.com/tpage99/image/upload/v1605625048/dev/trpage-logo.png"
+export const siteDesc = "Web Developer portfolio site for Taylor Page."
 
 export default function Layout({ children, home }) {
   return (
@@ -18,13 +20,21 @@ export default function Layout({ children, home }) {
         <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5"/>
         <meta name="msapplication-TileColor" content="#da532c"/>
         <meta name="theme-color" content="#ffffff"/>
-        <meta name="description" content="Web Developer portfolio site for Taylor Page." />
+        <meta name="description" content={siteDesc} />
         <meta
           property="og:image"
-          content="/images/logo.png"
+          content={siteImg}
         />
         <meta name="og:title" content={siteTitle} />
+        <meta name="og:description" content={siteDesc}/>
+        <meta property="og:url" content="https://www.trpage.dev"/>
+        <meta property="og:site_name" content={siteTitle}/>
+        <meta name="twitter:title" content={siteTitle}/>
+        <meta name="twitter:description" content={siteDesc}/>
+        <meta name="twitter:image" content={siteImg}/>
+        <meta name="twitter:image:alt" content="taylor page web developer logo. just a t and r squooshed together, nothing fancy."/>
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@taylorpage71"/>
       </Head>
       <header>
         <Nav/>
