@@ -25,15 +25,15 @@ export default function Layout({ children, home }) {
           property="og:image"
           content={siteImg}
         />
-        <meta name="og:title" content={siteTitle} />
-        <meta name="og:description" content={siteDesc}/>
+        <meta property="og:title" content={siteTitle} />
+        <meta property="og:description" content={siteDesc}/>
         <meta property="og:url" content="https://www.trpage.dev"/>
         <meta property="og:site_name" content={siteTitle}/>
         <meta name="twitter:title" content={siteTitle}/>
         <meta name="twitter:description" content={siteDesc}/>
         <meta name="twitter:image" content={siteImg}/>
         <meta name="twitter:image:alt" content="taylor page web developer logo. just a t and r squooshed together, nothing fancy."/>
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary"/>
         <meta name="twitter:site" content="@taylorpage71"/>
       </Head>
       <header>
