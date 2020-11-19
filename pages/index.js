@@ -3,6 +3,7 @@ import Layout, { siteTitle } from "../components/layout";
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Featured from "../components/featured"
+import Reviews from "../components/reviews"
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -38,6 +39,7 @@ export default function Home() {
         <a className="btn-outline text-2xl">Blog Posts →</a>
       </Link>
       </section>
+      <Reviews/>
     </Layout>
   );
 }
