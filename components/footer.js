@@ -36,7 +36,8 @@ export default function Footer() {
         </a>
       </Link>
       </div>
-      <p className="pt-8">©TR Page 2020-{new Date().getFullYear()}.</p>
+      <p className="pt-8">©TR Page 2020.</p>
+      {/* <p className="pt-8">©TR Page 2020-{new Date().getFullYear()}.</p> */}
     </section>
   )
 }
