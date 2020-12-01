@@ -29,8 +29,8 @@ export default function Home() {
           <h2 className="m-0 p-0 inline">
           Hi, I'm TR (taylor)!
         </h2>
-        <p>I'm a freelance web developer living in the Springfield, MO USA area (CST or UTC−06:00 timezone). My primary toolkit consists of React frameworks like Gatsby.js and Next.js. Because most of my projects as of late have been on Shopify, I'm also picking up more Ruby on Rails and Vue.js.</p>
-        <p>In addition to the tools I'm regularly familiar with, I have an affinity for the JAMstack, a set of technologies used to build websites in a way that boasts enhanced security, flexibility, and speed over traditional websites. I'm also a big advocate of learning about and finding ways to implement accessibility to web development. I'm most interested in working with projects with a cause.</p>
+        <p>I'm a freelance web developer and Shopify Partner living in the Springfield, MO USA area (CST or UTC−06:00 timezone). My primary toolkit consists of React frameworks like Gatsby.js and Next.js. Because most of my projects as of late have been on Shopify, I'm also picking up more Ruby on Rails and Vue.js.</p>
+        <p>In addition to the tools I'm regularly familiar with, I have an affinity for the <a href="https://jamstack.org/what-is-jamstack/" className="go-link">Jamstack</a>, a set of technologies used to build websites in a way that boasts enhanced security, flexibility, and speed over traditional websites. I'm also a big advocate of learning about and finding ways to implement accessibility to web development. I'm most interested in working with projects with a cause.</p>
         <p>Feel free to check out some of my work below. If you have any questions or think I could be helpful in your next project, please reach to out me through my email at <a href="mailto:taylor@thepagesmedia.com" className="go-link">taylor@thepagesmedia.com</a> or one of the <a href="https://www.trpage.dev" className="go-link">social links above</a>.</p>
       </section>
       <Featured/>

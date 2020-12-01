@@ -32,7 +32,9 @@ export default function Post({ postData }) {
         <div  className="text-2xl text-gray-700 mt-0" >
           <Date dateString={postData.date}/>
         </div>
-        <br />
+        <div className="py-8">
+          <img src={postData.coverImg} alt={postData.coverDesc} className="rounded-xl shadow-lg"/>
+        </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} className="prose prose-lg md:prose-2xl" />
       </article>
       <article className="text-center my-2 py-6">

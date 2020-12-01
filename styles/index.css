@@ -35,6 +35,10 @@ a.go-link {
   border-radius: 2rem;
 }
 
+img.feature-img:hover {
+  @apply transition ease-in-out duration-700 transform scale-105 shadow-2xl;
+}
+
 /* Start purging... */
 @tailwind utilities;
 /* Stop purging. */

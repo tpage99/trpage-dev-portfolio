@@ -2,6 +2,8 @@
 title: "Good First Issue - My Own Open Source Project"
 date: "2019-10-19"
 featured: false
+coverImg: "https://res.cloudinary.com/tpage99/image/upload/v1571536622/a11y-first/A11y_First.png"
+coverDesc: "logo of accessibility first - text only logo"
 ---
 
 _This article originally appeared on the Dev.to platform and can be viewed [here](https://dev.to/taylorpage71/trying-to-find-balance-in-change-3bjn)._

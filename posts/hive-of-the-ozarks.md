@@ -2,6 +2,8 @@
 title: "Hive of the Ozarks - Project"
 date: "2020-08-02"
 featured: true
+coverImg: "https://res.cloudinary.com/tpage99/image/upload/v1606831617/dev/hiveoftheozarks.jpg"
+coverDesc: "screenshot of hive of the ozarks website"
 ---
 
 This was an exciting project because it was a greenfield project. This nonprofit is opening a coffee shop in March 2021 and they will be providing jobs for individuals with disabilities. They needed everything from getting their website up and running to figuring out how to take payments online, and they did not know where to start. I researched multiple payment gateways and providers and we settled on [Gravity Payments](#side-notes).  

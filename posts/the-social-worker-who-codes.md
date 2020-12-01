@@ -2,9 +2,11 @@
 title: "The Social Worker Who Codes"
 date: "2019-05-24"
 featured: false
+coverImg: "https://res.cloudinary.com/tpage99/image/upload/v1606833738/dev/coffeeandcomputer.jpg"
+coverDesc: "coffee mug with springtown coffee logo next to a small chemex and laptop open with code on screen"
 ---
 
-_This article originally appeared on the Dev.to platform and can be viewed [here](https://dev.to/taylorpage71/good-first-issue-my-own-open-source-project-2n9p)._
+_This article originally appeared on the Dev.to platform and can be viewed [here](https://dev.to/taylorpage71/trying-to-find-balance-in-change-3bjn)._
 
 I didn't really mean for it to happen, but I really became enraptured with the idea that one day I could become a web developer full-time. This has been a tough dream to wake up to, but maybe not for reasons you'd think. You see, I spent a lot of time and money in my earlier days building up a career in social work. I'm still paying on a mountain of student loan debt for a Master's degree and yet I really want to "jump ship" so to speak for a completely unrelated career field? I really don't want to become another stereotypical US student statistic who ends up getting an advanced degree but ends up working in a totally different career, but here I am.  
 

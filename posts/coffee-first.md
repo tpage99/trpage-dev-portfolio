@@ -2,6 +2,8 @@
 title: "Coffee First - Project"
 date: "2019-04-04"
 featured: true
+coverImg: "https://res.cloudinary.com/tpage99/image/upload/v1606834116/dev/coffeefirstss.jpg"
+coverDesc: "screenshot of coffee first website"
 ---
 
 Coffee First was a static website project where I first started to learn about how to accept payments online through a website, outside of using some sort of already pre-built plugin like Woocommerce with Wordpress or a hosted solution like Shopify or Square. Technically, this _does_ use a plugin, but it's a node plugin through the Gatsby ecosystem that pulls existing products in your Stripe Dashboard. Pretty neat, huh? 

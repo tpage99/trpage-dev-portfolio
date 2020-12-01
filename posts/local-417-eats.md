@@ -2,6 +2,8 @@
 title: "Local 417 Eats - Project"
 date: "2020-03-28"
 featured: true
+coverImg: "https://res.cloudinary.com/tpage99/image/upload/v1606833597/dev/local417eats.jpg"
+coverDesc: "screenshot of local 417 eats website"
 ---
 
 Local 417 Eats is a project I took on to help promote local restaurants in the Springfield area during the Covid-19 pandemic. After small stimuluses were passed and it seemed that large businesses were taking over available funding, it became clear that small local restaurants needed some additional support. I had seen several people sharing large lists online through spreadsheets and thought that providing this information in the format of an app could help.  
