@@ -2,46 +2,54 @@ import Link from 'next/link'
 
 export default function Featured() {
   return (
-    <section className="text-center">
-      <h2 className="text-4xl font-bold">previous projects</h2>
-      <article className="p-4">
+    <section className="items-center">
+      <h2 className="text-4xl font-bold text-center">previous projects</h2>
+      <article className="p-6">
+        <Link href="/posts/hive-of-the-ozarks" className="py-4">
+          <a>
+          <img src="/images/hiveoftheozarks.jpg" alt="screenshot of hive of the ozarks" className="rounded-xl shadow-lg feature-img" loading="lazy"/>
+          </a>
+        </Link>
         <h3 className="text-3xl font-bold text-gray-700">Hive of the Ozarks</h3>
-        <div className="py-4">
-        <img src="/images/hiveoftheozarks.jpg" alt="screenshot of hive of the ozarks" className="rounded-xl shadow-lg feature-img" loading="lazy"/>
-        </div>
         <Link href="/posts/hive-of-the-ozarks">
-          <a className="text-2xl underline go-link">
+          <a className="text-large md:text-2xl underline go-link">
             Learn more about this project
           </a>
         </Link>
       </article>
-      <article className="p-4">
+      <article className="p-6">
+        <Link href="/posts/local-417-eats" className="py-4">
+          <a>
+            <img src="/images/local417eats.jpg" alt="screenshot of local 417 eats" className="rounded-xl shadow-lg feature-img" loading="lazy"/>
+          </a>
+        </Link>
         <h3 className="text-3xl font-bold text-gray-700">Local 417 Eats</h3>
-        <div className="py-4">
-        <img src="/images/local417eats.jpg" alt="screenshot of local 417 eats" className="rounded-xl shadow-lg feature-img" loading="lazy"/>
-        </div>
         <Link href="/posts/local-417-eats">
-          <a className="text-2xl underline go-link">
+          <a className="text-large md:text-2xl underline go-link">
             Learn more about this project
           </a>
         </Link>
       </article>
-      <article className="p-4">
+      <article className="p-6">
+        <Link href="/posts/wc-partners" className="py-4">
+          <a>
+            <img src="/images/wcpartners.jpg" alt="screenshot of wc partners" className="rounded-xl shadow-lg feature-img" loading="lazy"/>
+          </a>
+        </Link>
         <h3 className="text-3xl font-bold text-gray-700">WC Partners</h3>
-        <div className="py-4">
-        <img src="/images/wcpartners.jpg" alt="screenshot of wc partners" className="rounded-xl shadow-lg feature-img" loading="lazy"/>
-        </div>
         <Link href="/posts/wc-partners">
-          <a className="text-2xl underline go-link">Learn more about this project</a>
+          <a className="text-large md:text-2xl underline go-link">Learn more about this project</a>
         </Link>
       </article>
-      <article className="p-4">
+      <article className="p-6">
+        <Link  href="/posts/coffee-first" className="py-4">
+          <a>
+            <img src="/images/coffeefirstss.jpg" alt="screenshot of coffee frist" className="rounded-xl shadow-lg feature-img" loading="lazy"/>
+          </a>
+        </Link>
         <h3 className="text-3xl font-bold text-gray-700">Coffee First</h3>
-        <div className="py-4">
-        <img src="/images/coffeefirstss.jpg" alt="screenshot of coffee frist" className="rounded-xl shadow-lg feature-img" loading="lazy"/>
-        </div>
         <Link href="/posts/coffee-first">
-          <a className="text-2xl underline go-link">Learn more about this project</a>
+          <a className="text-large md:text-2xl underline go-link">Learn more about this project</a>
         </Link>
       </article>
       <article className="text-center my-2 py-12">
