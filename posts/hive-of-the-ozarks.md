@@ -4,6 +4,7 @@ date: "2020-08-02"
 featured: true
 coverImg: "https://res.cloudinary.com/tpage99/image/upload/v1606831617/dev/hiveoftheozarks.jpg"
 coverDesc: "screenshot of hive of the ozarks website"
+desc: "Hive of the Ozarks Project - a website built with Eleventy and hosted on Netlify. Also looking to incorporate Ecwid, an ecommerce provider due to having a custom payment gateway integration. #jamstack"
 ---
 
 This was an exciting project because it was a greenfield project. This nonprofit is opening a coffee shop in March 2021 and they will be providing jobs for individuals with disabilities. They needed everything from getting their website up and running to figuring out how to take payments online, and they did not know where to start. I researched multiple payment gateways and providers and we settled on [Gravity Payments](#side-notes).  

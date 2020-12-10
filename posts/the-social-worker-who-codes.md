@@ -4,6 +4,7 @@ date: "2019-05-24"
 featured: false
 coverImg: "https://res.cloudinary.com/tpage99/image/upload/v1606833738/dev/coffeeandcomputer.jpg"
 coverDesc: "coffee mug with springtown coffee logo next to a small chemex and laptop open with code on screen"
+desc: "Post from Dev.to when I first started getting into trying to learn in public online."
 ---
 
 _This article originally appeared on the Dev.to platform and can be viewed [here](https://dev.to/taylorpage71/trying-to-find-balance-in-change-3bjn)._

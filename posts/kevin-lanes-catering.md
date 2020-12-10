@@ -4,6 +4,7 @@ date: "2018-09-22"
 featured: true
 coverImg: "https://res.cloudinary.com/tpage99/image/upload/v1606834017/dev/kevinswebsite.jpg"
 coverDesc: "screenshot of kevin lane's catering website"
+desc: "Kevin Lane's Catering Project - a website built with HTML, CSS, Javascript and everyone's favorite - Bootstrap. Still #jamstack"
 ---
 _This article originally appeared on my wife and I's first foray into freelancing The Page's Media and can be viewed [here](https://www.thepagesmedia.com/blog/kevin-lanes-catering/)._
 

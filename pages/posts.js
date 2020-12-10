@@ -21,16 +21,16 @@ export default function Blog({ allPostsData }) {
       </Head>
       <section>
         <ul>
-          {allPostsData.map(({ id, date, title }) => (
+          {allPostsData.map(({ id, date, title, desc }) => (
             <div>
               <li className="my-2 py-4 border-b border-gray-300" key={id} >
                 <Link href="/posts/[id]" as={`/posts/${id}`}>
                   <a className="text-2xl underline font-semibold my-2 py-4">{title}</a>
                 </Link>
-                <br />
-                <small className="text-lg text-gray-700">
+                <p className="text-md text-gray-700">
                   <Date dateString={date} />
-                </small>
+                </p>
+                <p className="text-lg text-gray-700 py-4">{desc}</p>
               </li>
             </div>
           ))}
