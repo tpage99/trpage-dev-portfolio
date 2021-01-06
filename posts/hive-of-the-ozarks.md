@@ -11,7 +11,7 @@ This was an exciting project because it was a greenfield project. This nonprofit
 
 Because Gravity is a fairly new payment processor, it limited our ability to go with certain ecommerce solutions and we ended up choosing Ecwid because it worked well for the situation. It also gave me an opportunity to try out a JAMstack tool I had been eyeing for some time - Eleventy. 
 
-You can check out the Hive of the Ozarks live website by visiting https://www.hiveoftheozarks.com.  
+You can check out the Hive of the Ozarks live website by visiting [https://www.hiveoftheozarks.com](https://www.hiveoftheozarks.com).  
 
 ### Stack  
  - [Netlify](https://www.netlify.com/)
