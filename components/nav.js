@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const links = [
   { href: 'https://github.com/tpage99', label: 'GitHub' },
-  { href: 'https://www.upwork.com/o/profiles/users/~0121c4bb5610ec44fa/', label: 'Upwork' },
+  { href: 'https://www.upwork.com/fl/trpage', label: 'Upwork' },
   { href: 'https://www.linkedin.com/in/taylor-page-04774b79/', label: 'LinkedIn'}
 ]
 
@@ -22,7 +22,7 @@ export default function Nav() {
       <ul className="flex justify-around flex-wrap my-2 py-6 border-b border-gray-300">
         {links.map(({ href, label }) => (
           <li key={`${href}${label}`}>
-            <a href={href} className="btn-outline no-underline">
+            <a href={href} className="btn-outline no-underline" aria-label={label + " profile"}>
               {label}
             </a>
           </li>
