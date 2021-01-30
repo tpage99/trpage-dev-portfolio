@@ -17,7 +17,13 @@ _Disclaimer: This is a short tutorial that shows you how to edit code in a theme
 
 First, this method uses jQuery to accomplish this and we need to check and see if it's installed on your theme. There are a couple of ways to accomplish this, but since it could possibly be installed in various places on your theme, navigate to your product page where your "Read More" button is going to go and open up developer tools in your browser and go to the console (Command+Option+C on a Mac or right click and choose "Inspect" in any browser). Type `$.fn` into the console _(hint: only type the characters that are in between the backticks)_. If you get back your jQuery object, you've got jQuery!  
 
-If nothing came back, you can add jQuery to your Shopify theme by navigating to your `theme.liquid` file and inserting the CDN tag in the head `<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>`. Please note this is NOT the most performant method, as it will load jQuery on every page whereas you may only need on the product page, but it will get the job done for this example. 
+If nothing came back, you can add jQuery to your Shopify theme by navigating to your `theme.liquid` file and inserting the CDN tag in the head: 
+
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
+```
+
+Please note this is NOT the most performant method, as it will load jQuery on every page whereas you may only need on the product page, but it will get the job done for this example. The `defer` attribute within the tag is also optional. 
 
 ## Add the Function  
 
