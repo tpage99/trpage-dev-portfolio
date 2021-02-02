@@ -7,7 +7,7 @@ coverDesc: "read more spelled out in block scrabble type letters"
 desc: "How to add a read more option to your product descriptions in your Shopify store when they become very long, without using an app."
 ---
 
-Providing detailed product descriptions is great, both for customers trying to learn more about your products and also for SEO. Unfortunately, it doesn't always look _nice_ to have a giant, long, detailed product descripion. This behavior could be considered poor UX (User Experience), as it forces customers to scroll a great deal or get bored and move on. This means they may not see additional important content, like other suggested products, and can hurt sales.
+Providing detailed product descriptions is great, both for customers trying to learn more about your products and also for SEO. Unfortunately, it doesn't always look _nice_ to have a giant, long, detailed product description. This behavior could be considered poor UX (User Experience), as it forces customers to scroll a great deal or get bored and move on. This means they may not see additional important content, like other suggested products, and can hurt sales.
 
 A "Read More" text or button is the perfect solution for this! This saves valuable visual real-estate on your product page, while maintaining the good HTML information within the code is still available for Google's bots to crawl your site. 
 
@@ -15,7 +15,7 @@ _Disclaimer: This is a short tutorial that shows you how to edit code in a theme
 
 ## Check for jQuery  
 
-First, this method uses jQuery to accomplish this and we need to check and see if it's installed in the theme. There are a couple of ways to accomplish this, but since it could possibly be installed in various places, navigate to your product page where your "Read More" button is going to go and open up developer tools in your browser. Go to the console (Command+Option+C on a Mac or right click and choose "Inspect" in any browser). Type `$.fn` into the console _(hint: only type the characters that are in between the backticks)_. If you get back your jQuery object, you've got jQuery!  
+First, this method uses jQuery, a longstanding Javascript library, to accomplish this and we need to check and see if it's installed in the theme. There are a couple of ways to do this, but since it could possibly be installed in various places, navigate to your product page where your "Read More" button is going to go and open up developer tools in your browser. Go to the console (Command+Option+C on a Mac or right click and choose "Inspect" in any browser). Type `$.fn` into the console _(hint: only type the characters that are in between the backticks)_. If you get back your jQuery object, you've got jQuery and can move on to the next step.   
 
 If nothing came back, you can add jQuery to your Shopify theme by navigating to your `theme.liquid` file and inserting the CDN tag in the head: 
 
@@ -24,7 +24,7 @@ If nothing came back, you can add jQuery to your Shopify theme by navigating to 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
 ```
 
-Please note this is NOT the most performant method, as it will load jQuery on every page whereas you may only need it on the product page, but it will get the job done for this example. The `defer` attribute within the tag is also optional. 
+Please note this is NOT the most performant method, as it will load jQuery on every page. You may only need it on the product page, but it will get the job done for this example. The `defer` attribute within the tag is also optional. 
 
 ## Add the Function  
 
@@ -50,7 +50,7 @@ $(document).ready(function () {
 });
 ``` 
 
-Basically, this is a jQuery function that says to look for a class of `readmore` and listen for when it is clicked. When it is, we want the height of the element with an id of `product-description` to be expanded to fit the whole container. It will also then alter the text to read "Read less..." so that way customers can click on it again to hide the full description by shrinking it back down to 92px. 
+Basically, this is a jQuery function that says to look for a class of `readmore` and listen for when it is clicked. When it is, we want the height of the element with an id of `product-description` to be expanded to fit the whole container. It will also then alter the text to say "Read less..." so that way customers can click on it again to hide the full description by shrinking it back down to 92px. 
 
 Pretty neat, eh?
 
