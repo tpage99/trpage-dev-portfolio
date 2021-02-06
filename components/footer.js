@@ -1,8 +1,10 @@
 import Link from 'next/link'
+import {Fragment} from 'react'
 
 export default function Footer() {
   return (
-    <section className="m-4 p-6 text-center border-t border-gray-300">
+    <Fragment>
+      <section className="m-4 p-6 text-center border-t border-gray-300">
       <div className="flex justify-center py-4">
       <a href="https://www.upwork.com/fl/trpage" className="px-4" aria-label="upwork profile">
         <svg className="h-8 w-8 fill-current text-orange-700" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -36,7 +38,11 @@ export default function Footer() {
         </a>
       </Link>
       </div>
-      <p className="pt-8">©TR Page 2020-{new Date().getFullYear()}.</p>
+      <div className="pt-4">
+        <p><Link href="/contact"><a className="go-link">Let's work together.</a></Link></p>
+      </div>
+      <p className="pt-6">©TR Page 2020-{new Date().getFullYear()}.</p>
     </section>
+  </Fragment>
   )
 }
