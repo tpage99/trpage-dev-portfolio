@@ -17,10 +17,11 @@ export default async function(req, res) {
     .send(msg)
     .then(() => {
       console.log('Email sent')
+      return resolve();
     })
     .catch((error) => {
       console.error(error)
-      return resolve();
+      reject(error)
     })
   })
 }
