@@ -29,9 +29,14 @@ export default function Home() {
           <h2 className="m-0 p-0 inline">
           Hi, I'm TR (taylor)!
         </h2>
-        <p>I'm a freelance web developer and <Link href="/posts/what-is-a-shopify-partner"><a className="go-link">Shopify Partner</a></Link> living in the Springfield, MO USA area (CST or UTC−06:00 timezone). My primary toolkit consists of React frameworks like Gatsby.js and Next.js. Because most of my projects as of late have been on Shopify, I'm also picking up more Ruby on Rails and Vue.js.</p>
-        <p>In addition to the tools I'm regularly familiar with, I have an affinity for the <a href="https://jamstack.org/what-is-jamstack/" className="go-link">Jamstack</a>, a set of technologies used to build websites in a way that boasts enhanced security, flexibility, and speed over traditional websites. I'm also a big advocate of learning about and finding ways to implement accessibility to web development. I'm most interested in working with projects with a cause.</p>
-        <p>Feel free to check out some of my work below. If you have any questions or think I could be helpful in your next project, please reach to out me through my email at <a href="mailto:taylor@thepagesmedia.com" className="go-link">taylor@thepagesmedia.com</a> or one of the <a href="https://www.trpage.dev" className="go-link">social links above</a>.</p>
+
+        <h3>I create websites that sell.</h3>
+
+        <p>I'm a freelance web developer and <Link href="/posts/what-is-a-shopify-partner"><a className="go-link">Shopify Partner</a></Link> living in the Springfield, MO USA area (CST or UTC−06:00 timezone). I help store owners get online. Whether it's building a brand new Shopify store to bring your brick and mortar store or new idea online, or updating an existing site to {new Date().getFullYear()}, I can help. My goal is to teach and support in addition to providing code that works consistently and provides you a platform to sell your products or services.</p>
+
+        <p>In addition to building custom Shopify sites, I have an affinity for the <a href="https://jamstack.org/what-is-jamstack/" className="go-link">Jamstack</a>, a set of technologies used to build websites in a way that boasts enhanced security, flexibility, and speed over traditional websites. I'm also a big advocate of learning about and finding ways to implement accessibility to web development.</p>
+
+        <p>Feel free to check out some of my work below. If you have any questions or think I could be helpful in your next project, please reach to out me through my email at <a href="mailto:taylor@thepagesmedia.com" className="go-link">taylor@thepagesmedia.com</a>, one of the <a href="https://www.trpage.dev" className="go-link">social links above</a>, or complete a <Link href="/contact"><a className="go-link">short contact form</a></Link>.</p>
       </section>
       <Featured/>
       <Reviews/>

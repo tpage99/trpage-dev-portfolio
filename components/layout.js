@@ -3,6 +3,7 @@ import styles from "./layout.module.css";
 import Link from "next/link";
 import Nav from "./nav"
 import Footer from "./footer"
+import ContactButton from "./contact-button"
 
 const name = "Taylor";
 export const siteTitle = "Taylor Page | Web Developer";
@@ -47,6 +48,7 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
+      <ContactButton/>
       <Footer/>
     </div>
   );
