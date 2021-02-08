@@ -3,6 +3,7 @@ import styles from "./layout.module.css";
 import Link from "next/link";
 import Nav from "./nav"
 import Footer from "./footer"
+import ContactButton from "./contact-button"
 
 export default function PostsLayout({ children, home }) {
   return (
@@ -27,6 +28,7 @@ export default function PostsLayout({ children, home }) {
           </Link>
         </div>
       )}
+      <ContactButton/>
       <Footer/>
     </div>
   );
