@@ -40,7 +40,11 @@ img.feature-img:hover {
 }
 
 a.contact-btn {
-  @apply bg-orange-600 text-white text-xl p-4 rounded;
+  @apply bg-orange-600 text-white text-xl p-4 pb-8 rounded;
+}
+
+.sticky-btn:hover {
+  @apply animate-bounce;
 }
 
 /* Start purging... */
