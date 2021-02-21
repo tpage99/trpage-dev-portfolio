@@ -7,7 +7,7 @@ export default function Featured() {
       <article className="p-6">
         <Link href="/posts/sweetalicious" className="py-4">
           <a>
-          <img src="/images/sweetalicious.png" alt="screenshot of sweetalicious" className="rounded-xl shadow-lg feature-img" loading="lazy"/>
+          <img src="https://res.cloudinary.com/tpage99/image/upload/v1613883856/dev/sweetalicious_ss.png" alt="screenshot of sweetalicious" className="rounded-xl shadow-lg feature-img" loading="lazy"/>
           </a>
         </Link>
         <h3 className="text-3xl font-bold text-gray-700">Sweetalicious</h3>
@@ -20,7 +20,7 @@ export default function Featured() {
       <article className="p-6">
         <Link  href="/posts/coffee-first" className="py-4">
           <a>
-            <img src="/images/coffeefirstss.jpg" alt="screenshot of coffee frist" className="rounded-xl shadow-lg feature-img" loading="lazy"/>
+            <img src="https://res.cloudinary.com/tpage99/image/upload/v1606834116/dev/coffeefirstss.jpg" alt="screenshot of coffee frist" className="rounded-xl shadow-lg feature-img" loading="lazy"/>
           </a>
         </Link>
         <h3 className="text-3xl font-bold text-gray-700">Coffee First</h3>
@@ -31,7 +31,7 @@ export default function Featured() {
       <article className="p-6">
         <Link href="/posts/local-417-eats" className="py-4">
           <a>
-            <img src="/images/local417eats.jpg" alt="screenshot of local 417 eats" className="rounded-xl shadow-lg feature-img" loading="lazy"/>
+            <img src="https://res.cloudinary.com/tpage99/image/upload/v1606833597/dev/local417eats.jpg" alt="screenshot of local 417 eats" className="rounded-xl shadow-lg feature-img" loading="lazy"/>
           </a>
         </Link>
         <h3 className="text-3xl font-bold text-gray-700">Local 417 Eats</h3>
@@ -44,7 +44,7 @@ export default function Featured() {
       <article className="p-6">
         <Link href="/posts/wc-partners" className="py-4">
           <a>
-            <img src="/images/wcpartners.jpg" alt="screenshot of wc partners" className="rounded-xl shadow-lg feature-img" loading="lazy"/>
+            <img src="https://res.cloudinary.com/tpage99/image/upload/v1606833848/dev/wcpartners.jpg" alt="screenshot of wc partners" className="rounded-xl shadow-lg feature-img" loading="lazy"/>
           </a>
         </Link>
         <h3 className="text-3xl font-bold text-gray-700">WC Partners</h3>

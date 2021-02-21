@@ -2,7 +2,7 @@
 title: "Sweetalicious - Project"
 date: "2020-12-25"
 featured: true
-coverImg: "https://res.cloudinary.com/tpage99/image/upload/v1612784497/dev/sweetalicious.png"
+coverImg: "https://res.cloudinary.com/tpage99/image/upload/v1613883856/dev/sweetalicious_ss.png"
 coverDesc: "screenshot of sweetalicious website"
 desc: "Sweetalicious is a website for a local couple in New Jersey selling candy in lots of fun and creative ways. They wanted off Wordpress and found a great solution with Shopify."
 ---
