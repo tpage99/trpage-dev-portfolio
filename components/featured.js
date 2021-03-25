@@ -5,6 +5,19 @@ export default function Featured() {
     <section className="items-center">
       <h2 className="text-4xl font-bold text-center">previous projects</h2>
       <article className="p-6">
+        <Link href="/posts/grower-x" className="py-4">
+          <a>
+            <img src="https://res.cloudinary.com/tpage99/image/upload/v1616678658/dev/grower-x.png" alt="screenshot of grower-x website home page" className="rounded-xl shadow-lg feature-img" loading="lazy"/>
+          </a>
+        </Link>
+        <h3 className="text-3xl font-bold text-gray-700">Grower-X</h3>
+        <Link href="/posts/grower-x">
+          <a className="text-large md:text-2xl underline go-link">
+            Learn more about this project
+          </a>
+        </Link>
+      </article>
+      <article className="p-6">
         <Link href="/posts/sweetalicious" className="py-4">
           <a>
           <img src="https://res.cloudinary.com/tpage99/image/upload/v1613883856/dev/sweetalicious_ss.png" alt="screenshot of sweetalicious" className="rounded-xl shadow-lg feature-img" loading="lazy"/>
@@ -26,19 +39,6 @@ export default function Featured() {
         <h3 className="text-3xl font-bold text-gray-700">Coffee First</h3>
         <Link href="/posts/coffee-first">
           <a className="text-large md:text-2xl underline go-link">Learn more about this project</a>
-        </Link>
-      </article>
-      <article className="p-6">
-        <Link href="/posts/local-417-eats" className="py-4">
-          <a>
-            <img src="https://res.cloudinary.com/tpage99/image/upload/v1606833597/dev/local417eats.jpg" alt="screenshot of local 417 eats" className="rounded-xl shadow-lg feature-img" loading="lazy"/>
-          </a>
-        </Link>
-        <h3 className="text-3xl font-bold text-gray-700">Local 417 Eats</h3>
-        <Link href="/posts/local-417-eats">
-          <a className="text-large md:text-2xl underline go-link">
-            Learn more about this project
-          </a>
         </Link>
       </article>
       <article className="p-6">
