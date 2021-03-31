@@ -79,7 +79,7 @@ const Contact = () => {
           required
           value={inputs.name}
           placeholder="Name"
-        className="focus:border-light-blue-500 focus:ring-1 focus:ring-light-blue-500 focus:outline-none w-full md:w-6/12 text-xl text-black placeholder-gray-500 border border-gray-200 rounded-md py-2 pl-4"/>
+        className="focus:border-light-blue-500 focus:ring-1 focus:ring-light-blue-500 focus:outline-none w-full md:w-6/12 text-xl text-black placeholder-gray-500 border border-gray-300 rounded-md py-2 pl-4"/>
       </div>
       <div className="text-center my-4">
       <label htmlFor="email" className="px-4 text-xl">Email</label>
@@ -90,7 +90,7 @@ const Contact = () => {
           required
           value={inputs.email}
           placeholder="Email"
-          className="focus:border-light-blue-500 focus:ring-1 focus:ring-light-blue-500 focus:outline-none w-full md:w-6/12 text-xl text-black placeholder-gray-500 border border-gray-200 rounded-md py-2 pl-4"/>
+          className="focus:border-light-blue-500 focus:ring-1 focus:ring-light-blue-500 focus:outline-none w-full md:w-6/12 text-xl text-black placeholder-gray-500 border border-gray-300 rounded-md py-2 pl-4"/>
       </div>
       <div className="my-4">
         <label htmlFor="message" className="px-4 text-xl block text-center">Tell me about your project</label>
@@ -100,7 +100,7 @@ const Contact = () => {
           required
           value={inputs.message}
           placeholder="About your project..."
-          className="focus:border-light-blue-500 focus:ring-1 focus:ring-light-blue-500 focus:outline-none w-full md:w-8/12 text-xl text-black placeholder-gray-500 border border-gray-200 rounded-md py-2 pl-4 block m-auto"/>
+          className="focus:border-light-blue-500 focus:ring-1 focus:ring-light-blue-500 focus:outline-none w-full md:w-8/12 text-xl text-black placeholder-gray-500 border border-gray-300 rounded-md py-2 pl-4 block m-auto"/>
         </div>
         <div className="text-center my-4">
         <button type="submit" disabled={status.submitting} className="btn-outline text-2xl no-underline">
