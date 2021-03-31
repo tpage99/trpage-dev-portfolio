@@ -1,5 +1,5 @@
 ---
-title: "Why Work with a Freelancer Rather than an Agency?"
+title: "Why Work with a Freelancer?"
 date: "2021-03-31"
 featured: false
 coverImg: "https://source.unsplash.com/m_HRfLhgABo"
@@ -63,7 +63,7 @@ One way to minimize risk is to use a platform like [Upwork](https://www.upwork.c
 
 ### Actually Talk to the Person  
 
-I am so surprised when I have talked to peopel about issues they have had with previous freelancers and they say they just met and chatted with them on Facebook Messenger and agreed to start off with a $1,000 deposit on a website build. WHAT?! Don't do that! Actually get on the phone or hop on a video call before working with them. If you have alarm bells going off during the call, trust your intuition and move on to the next person.  
+I am so surprised when I have talked to people about issues they have had with previous freelancers and they say they just met and chatted with them on Facebook Messenger and agreed to start off with a $1,000 deposit on a website build. WHAT?! Don't do that! Actually get on the phone or hop on a video call before working with them. If you have alarm bells going off during the call, trust your intuition and move on to the next person.  
 
 ### Have a Backup Plan  
 
