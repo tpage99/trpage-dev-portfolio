@@ -20,7 +20,9 @@ export default function PostsLayout({ children, home }) {
       <header>
         <Nav/>
       </header>
-      <main>{children}</main>
+      <main>
+        {children}
+      </main>
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">

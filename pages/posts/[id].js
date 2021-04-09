@@ -3,6 +3,7 @@ import Link from "next/link";
 import PostsLayout from "../../components/layoutPosts";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Date from "../../components/date";
+import Start from "../../components/start-here"
 
 export async function getStaticPaths() {
   const paths = getAllPostIds();
@@ -48,6 +49,7 @@ export default function Post({ postData }) {
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} className="prose prose-lg md:prose-2xl pt-6" />
       </article>
+      <Start/>
       <article className="text-center my-2 py-6">
         <Link href="/posts">
           <a className="btn-outline text-2xl">← Back to Blog Posts</a>

@@ -45,30 +45,6 @@ Some folks who have a pretty technical background are not the best at communicat
 
 It stinks to live in the kind of world that we do, but there are plenty of folks out there who are willing to take advantage of others. Worse than not knowing how to do the job and just talking a big game, are folks who are actively scamming others. They may just take the deposit or whatever payment you agreed to upfront and run.  
 
-## So How Do You Hire a Freelancer?  
+## Go with What Works for You  
 
-So there are a lot of potentially bad things that can happen going the freelancer route, right? Arguably all of those same things can happen with an agency but most of your risk is a little more mitigated with a more established business who may be very concerned about their reputation - whereas an individual can create their own new identity online. There are ways to work with a freelancer and also things to look out for that will help prevent a lot of these things from happening. If you're working with a freelancer for the first time, here are some things to consider before you've had the opportunity to build up some trust. 
-
-### Google Check  
-
-You don't need to go the full-blown route of a background check, although you definitely could, but just do some quick googling on the freelancer. Any decent freelancer will have a portfolio or Github profile or something that will help display their work. Once you get that from them, start copying and pasting large chunks of that text into Google and see if there are other places that same text shows up. This will help prevent you from working with someone who maybe threw up a template portfolio site or even stole someone else's site. You don't want to work with those kinds of folks. 
-
-### Start Small  
-
-If you're working with a freelancer for the first time, start with a smaller project first before moving on to the bigger project. If you want a full website design, start with just designing a home page or even just a section of the home page like the header. Smaller projects in stages can help build trust on both sides and ensure that you're happy with both the quality and efficiency of the work provided. 
-
-### Work Through a Platform  
-
-One way to minimize risk is to use a platform like [Upwork](https://www.upwork.com/fl/trpage) or for Shopify-specific sites [Storetasker](https://www.storetasker.com/experts/taylor-page) or the [Shopify Expert Marketplace](https://experts.shopify.com/the-pages-media). This gives you the opportunity to check out reviews or helps establish at least that these freelancers have gone through some vetting process and are at least more legitimate than people you would meet on Facebook/social media. Upwork and Storetasker even add another layer of accountability in that they put your money in escrow. This means if you contest that work was not actually completed, your money gets refunded to you. 
-
-### Actually Talk to the Person  
-
-I am so surprised when I have talked to people about issues they have had with previous freelancers and they say they just met and chatted with them on Facebook Messenger and agreed to start off with a $1,000 deposit on a website build. WHAT?! Don't do that! Actually get on the phone or hop on a video call before working with them. If you have alarm bells going off during the call, trust your intuition and move on to the next person.  
-
-### Have a Backup Plan  
-
-Stuff goes wrong all the time. Maybe it does not work out with the freelancer or your deliverable has changed or their timelines are now off with other projects. Have a backup plan and talk to the freelancer about a backup plan if it's an extended project. Nothing wrong with making sure your bases are covered. 
-
-## Start Here  
-
-If you're interested in starting a Shopify project or just learning more about the platform, give me a shout! I would be happy to answer your questions or get you started on your road to a successful and thriving store with Shopify. Reach out by [email](mailto:taylor@thepagesmedia.com) or check out my profile on the [Shopify Expert Marketplace](https://experts.shopify.com/the-pages-media) to get started. 
+There really is no one answer to what is best for you. Agencies and freelancers are different tools to be used for different business goals and different teams. Regardless of what you end up choosing, just know there are lots of good options out there. And if you find what works for you, keep doing it! 

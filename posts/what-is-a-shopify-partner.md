@@ -28,7 +28,3 @@ Shopify is great at listening and anticipating needs of store owners and is cons
 ### Shopify Partners versus Shopify Experts  
 
 Shopify Partners should not be confused with Shopify Experts. This is a separate classification that's reserved for folks that have applied and been accepted to Shopify's Expert Marketplace, where folks can hire directly on Shopify's site and pay through that system. The benefits of this are that these Experts have been vetted by Shopify. The potential downside is that they are able to charge significantly more for their expertise. This can be out-of-reach for many store owners.  
-
-## Start Here  
-
-If you're interested in starting a Shopify project or just learning more about the platform, reach out to this Shopify Partner (me)! I would be happy to answer your questions or get you started on your road to a successful and thriving store with Shopify. Reach out by [email](mailto:taylor@thepagesmedia.com) or check out my profile on [Upwork](https://www.upwork.com/fl/trpage) to get started. 

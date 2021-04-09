@@ -18,7 +18,7 @@ export default function Nav() {
             className="inline h-16 md:h-24 mt-0 w-auto pr-2 md:pr-6 pb-1"
             alt="tr page logo"
           />
-          <p className="inline align-bottom text-md sm:text-2xl md:text-3xl font-hairline mb-0 pb-0">freelance web developer.</p>
+          <p className="inline align-bottom text-xl sm:text-2xl md:text-3xl font-hairline mb-0 pb-0">freelance web developer.</p>
         </a>
         </Link>
       <ul className="flex justify-around flex-wrap my-2 py-6 border-b border-gray-300">
