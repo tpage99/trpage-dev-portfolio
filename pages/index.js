@@ -33,7 +33,7 @@ export default function Home() {
       <h2 className="m-0 p-0 text-3xl md:text-6xl text-center md:text-left font-bold">
           Hi, I'm TR (Taylor)!
         </h2>
-        <h3 className="text-2xl md:text-4xl text-center md:text-left m-0 p-0 font-bold">I create websites that sell.</h3>
+        <h3 className="text-2xl md:text-4xl text-center md:text-left m-0 p-0 font-bold">I build websites that sell.</h3>
       </div>  
       </section>
       
