@@ -7,7 +7,7 @@ coverDesc: "motorcycle rider wearing a helmet driving at a fast rate of speed"
 desc: "Website speed is an important variable in your store's experience. Slow websites cause users to get frustrated and leave, not to mention the importance for Google's Core Web Vitals. Learn about strategies to make your store load more quickly."
 ---
 
-I am officially full-time freelancing! So to commemorate this occasion, I figured I would write about work that I have been doing a lot of lately - speed optimization on Shopify. Google announced not too long ago that they were updating their Core Web Vitals to be a heavier factor in search effective May 2021. Google later came out and said that they would be pushing this release back to mid-June 2021 for some sites with a full rollout expected August 2021 [[source](https://developers.google.com/search/blog/2021/04/more-details-page-experience?fbclid=IwAR2dyHAAgH9UcRmtlX8G1yCNzdCLiO-kQgiYDLabTdNDMaI2FjGEOedjoMI)].
+I officially started freelancing full-time in May! So to commemorate this occasion, I figured I would write about work that I have been doing a lot of lately - speed optimization on Shopify. Google announced not too long ago that they were updating their Core Web Vitals to be a heavier factor in search effective May 2021. Google later came out and said that they would be pushing this release back to mid-June 2021 for some sites with a full rollout expected August 2021 [[source](https://developers.google.com/search/blog/2021/04/more-details-page-experience?fbclid=IwAR2dyHAAgH9UcRmtlX8G1yCNzdCLiO-kQgiYDLabTdNDMaI2FjGEOedjoMI)].
 
 ## What Are Core Web Vitals Anyways?  
 
@@ -23,7 +23,7 @@ Some of the metrics that Google sites as ultra-important (their Core Web Vitals)
 
 Now, these all have their own metrics to go off of, but the most important thing to note is that these items are all direct indicators of how your website is perceived by your customers. 
 
-## So What Can I Do to Make My Websiter Faster?  
+## So What Can I Do to Make My Website Faster?  
 
 There are several different strategies we can employ that will provide a performance boost. Shopify already does several things really well for you that are recommended, such as implementing a Content Delivery Network (CDN), ensuring that themes that are approved in the theme store are mobile-friendly, safe-browsing and HTTPS support, and so on. However, the caveat to some of this is that there are pieces that are not accessible to store owners or even developers with a traditional Shopify website. A good example of this is not being able to fine-tune the CDN or cache, as this is maintained by Shopify and not accessible otherwise. So what CAN we do?  
 
@@ -73,6 +73,8 @@ In some instances, like if your site takes forever to load, you want to obviousl
 
 Most of us think of our PageSpeed score as the grade for our store. But, that's definitely not the case. Scores in the 30's and 40's are pretty decent scores for sites hosted on Shopify and you'll often see passing Core Web Vitals in that metric. Also, check out some of the most profitable shopify stores like [GymShark](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.gymshark.com%2F), [Chubbies](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.chubbiesshorts.com%2F), or [Allbirds](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.allbirds.com%2F). Unless they've done some work since this post was written, none of their scores crack 30. 
 
-If your store is making you money, congrats! You've got at a bare minimum a passing grade. Are there probably opportunities to improve? Sure. Just like anything else. But just remember, the sky isn't falling, nothing is on fire, and you're not failing just because you've got a "low" score.
+If your store is making you money, congrats! You've got at a bare minimum a passing grade. Are there probably opportunities to improve? Sure. Just like anything else. But just remember, the sky isn't falling, nothing is on fire, and you're not failing just because you've got a "low" score.  
+
+## Probably Not a Deal-Breaker, but Can Be a Difference-Maker
 
 Consider implementing these practices to improve your store, but keep doing what is working well for your store now and you'll be just fine. Web developers can build stores with 100's all day long - it doesn't mean they will sell! So keep doing what you do best, but don't sweat PageSpeed.  
