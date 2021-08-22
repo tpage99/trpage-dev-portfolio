@@ -10,13 +10,13 @@ export default function Faq() {
         <title>{siteTitle}</title>
       </Head>
       <section className="prose prose-xl md:prose-2xl">
-        <h1 className="text-3xl md:text-5xl text-center">Frequently Asked Questions (FAQ)</h1>
+        <h1 className="text-3xl md:text-5xl text-center">Frequently Asked Questions (FAQs)</h1>
         <article>
           <h2>What do you even do?</h2>
           <p>Great question! I'm a web developer, which means that I work with web technologies to build websites. Specifically right now, I'm helping Shopify store owners with customizations to their themes, getting help with improving broken user experience (UX) issues, or optimizing for speed/improving Core Web Vitals.</p>
         </article>
         <article>
-          <h2>Can you give some examples?</h2>
+          <h2>Can you give some examples of your services?</h2>
           <p>
             Sure can! I help folks out with:
             <ul>
@@ -36,8 +36,13 @@ export default function Faq() {
           </p>
         </article>
         <article>
+          <h2>What does your process look like?</h2>
+          <p>In general, everything starts with a discovery call. My preference is typically to do this by video conference. Don't worry, you don't have to turn on your camera too. I just find it's easier for folks who are going to be trusting me with their website to actually get to see my face. We'll talk about what your needs are for this specific project and your business, so I can make proper recommendations. Then I will request collaborator access to your store. You'll approve only the permissions you feel comfortable with, so I can scope out the rest of your Shopify store and provide a more accurate estimate. Finally, I'll send you a proposal for costs in which we'll have the scope of work detailed out to ensure we're both on the same page.</p>
+          <p>If everything looks good, I'll make a copy of your main theme and work out of a backup. It is a rare instance I would work on a live theme to ensure nothing is "broken" during development. After all the work is done, we'll hop on a call so we can review or I'll ask you to watch a video walkthrough to make sure everything is done correctly. Then you'll publish the draft site with the updated revisions or we'll deploy the updates as appropriate.</p>
+        </article>
+        <article>
           <h2>How much do you charge?</h2>
-          <p>The not so great answer, it depends. Different jobs require different solutions. I used to just throw out an hourly figure, but this isn't the best way to do business (for me or for merchants). Billing solely by the hour means I'm <em>rewarded</em> for taking longer and you'll also likely assume the job will take much longer and be more costly than the actual number of hours necessary. Here's what I can tell you, the typical jobs I work range from $500-$15,000. These are small tweaks to larger projects and even full-site builds.</p>
+          <p>The not so great answer is it depends. Different jobs require different solutions. I used to just throw out an hourly figure, but this isn't the best way to do business (for me or for you). Billing solely by the hour means I'm <em>rewarded</em> for taking longer and you'll also likely assume the job will take much longer and be more costly than the actual number of hours necessary. Here's what I can tell you without knowing about your specific project, the typical jobs I work range from $500-$15,000. These are small tweaks to larger projects and even full-site builds or migrations.</p>
         </article>
         <article>
           <h2>How do you get paid?</h2>

@@ -7,7 +7,7 @@ export default function ContactButton() {
       <div style={{position: `fixed`, bottom: `10px`, right: `10px`}} className="sticky-btn">
         <Link href="/contact">
           <a className="contact-btn">
-            Let's Work Together
+            Start a project
           </a>
         </Link>
       </div>
