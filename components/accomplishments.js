@@ -16,7 +16,7 @@ export default function Accomplishments() {
         <article className="p-6">
           <Link href="https://www.upwork.com/freelancers/trpage">
             <a>
-              <img src="https://res.cloudinary.com/tpage99/image/upload/v1629580760/dev/6087f4100a21ee377258251c_upwork_tm.png" alt="upwork logo" className="mx-auto max-w-2xl rounded-xl shadow-lg feature-img p-8" loading="lazy"/>
+              <img src="https://res.cloudinary.com/tpage99/image/upload/v1629580760/dev/6087f4100a21ee377258251c_upwork_tm.png" alt="upwork logo" className="mx-auto md:max-w-2xl rounded-xl shadow-lg feature-img p-8" loading="lazy"/>
             </a>
           </Link>
           <h3 className="mt-8 text-2xl font-bold text-gray-700">Top Rated Freelancer on Upwork</h3>
@@ -24,7 +24,7 @@ export default function Accomplishments() {
         <article className="p-6">
           <Link href="https://www.storetasker.com/experts/taylor-page">
             <a>
-              <img src="https://res.cloudinary.com/tpage99/image/upload/v1629580832/dev/storetasker-logo-white.3ed35d301afa0db4dbe42a8d64a472ce.png" alt="storetasker logo" className="mx-auto max-w-2xl rounded-xl shadow-lg feature-img bg-black p-8" loading="lazy"/>
+              <img src="https://res.cloudinary.com/tpage99/image/upload/v1629580832/dev/storetasker-logo-white.3ed35d301afa0db4dbe42a8d64a472ce.png" alt="storetasker logo" className="mx-auto md:max-w-2xl rounded-xl shadow-lg feature-img bg-black p-8" loading="lazy"/>
             </a>
           </Link>
           <h3 className="mt-8 text-2xl font-bold text-gray-700">Senior Shopify Expert on Storetasker</h3>
