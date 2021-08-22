@@ -6,9 +6,9 @@ import Footer from "./footer"
 import ContactButton from "./contact-button"
 
 const name = "Taylor";
-export const siteTitle = "Taylor Page | Web Developer";
+export const siteTitle = "TR Page | Web Developer";
 export const siteImg = "https://res.cloudinary.com/tpage99/image/upload/v1605625048/dev/trpage-logo.png"
-export const siteDesc = "Web Developer portfolio site for Taylor Page."
+export const siteDesc = "Web Developer portfolio site for TR Page."
 
 export default function Layout({ children, home }) {
   return (
@@ -33,9 +33,9 @@ export default function Layout({ children, home }) {
         <meta name="twitter:title" content={siteTitle}/>
         <meta name="twitter:description" content={siteDesc}/>
         <meta name="twitter:image" content={siteImg}/>
-        <meta name="twitter:image:alt" content="taylor page web developer logo. just a t and r squooshed together, nothing fancy."/>
+        <meta name="twitter:image:alt" content="tr page web developer logo. just a t and r squooshed together, nothing fancy."/>
         <meta name="twitter:card" content="summary"/>
-        <meta name="twitter:site" content="@taylorpage71"/>
+        <meta name="twitter:site" content="@TRPage_dev"/>
       </Head>
       <header>
         <Nav/>

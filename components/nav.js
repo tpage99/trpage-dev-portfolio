@@ -1,11 +1,11 @@
 import Link from 'next/link'
 
 const links = [
-  { href: 'https://experts.shopify.com/the-pages-media', label: 'Shopify Expert Marketplace' },
-  { href: 'https://www.upwork.com/fl/trpage', label: 'Upwork' },
-  { href: 'https://www.storetasker.com/experts/taylor-page', label: 'Storetasker'},
-  { href: 'https://github.com/tpage99', label: 'GitHub' },
-  { href: 'https://www.linkedin.com/in/taylor-page-04774b79/', label: 'LinkedIn'}
+  { href: '/', label: 'Home' },
+  { href: '/#reviews', label: 'Reviews' },
+  { href: '/posts', label: 'Blog Posts' },
+  { href: '/faq', label: 'FAQ' },
+  { href: '/contact', label: 'Contact' }
 ]
 
 export default function Nav() {

@@ -2,7 +2,9 @@ import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
+import Accomplishments from "../components/accomplishments"
 import Featured from "../components/featured"
+import BlogPromo from "../components/blogPromo"
 import Reviews from "../components/reviews"
 
 export async function getStaticProps() {
@@ -45,7 +47,9 @@ export default function Home() {
 
         <p>Feel free to check out some of my work below. If you have any questions or think I could be helpful in your next project, please reach to out me through my email at <a href="mailto:taylor@thepagesmedia.com" className="go-link">taylor@thepagesmedia.com</a>, one of the <a href="https://www.trpage.dev" className="go-link">social links above</a>, or complete a <Link href="/contact"><a className="go-link">short contact form</a></Link>.</p>
       </section>
+      <Accomplishments/>
       <Featured/>
+      <BlogPromo/>
       <Reviews/>
     </Layout>
   );
