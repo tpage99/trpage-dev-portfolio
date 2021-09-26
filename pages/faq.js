@@ -50,7 +50,7 @@ export default function Faq() {
         </article>
         <article>
           <h2>Is it really safe to send you money online?</h2>
-          <p>I completely understand how difficult it can be to hire a freelancer - <Link href="/posts/how-do-you-hire-a-freelancer/"><a> that's why I wrote a post about it</a></Link>. If you're not very comfortable with billing directly, chat with me about options to have funds placed in escrow through one of the platforms I work with, like Upwork or Storetasker. Funds get held in escrow meaning I am not able to touch the money until after you've approved the project! It also ensures that there is a mutual third-party between us in case anything goes wrong.</p>
+          <p>I completely understand how difficult it can be to hire a freelancer - <Link href="/posts/how-do-you-hire-a-freelancer/"><a> that's why I wrote a post about it</a></Link>. If you're not very comfortable with billing directly, chat with me about options to have funds placed in escrow through one of the platforms I work with, like Upwork or Storetasker. Funds get held in escrow meaning I am not able to touch the money until after you've approved the project! It also ensures that there is an objective third-party between us in case anything goes wrong.</p>
         </article>
         <article>
           <h2>Do you need the username and password to my Shopify store?</h2>
@@ -62,7 +62,9 @@ export default function Faq() {
         </article>
         <article>
           <h2>Do you outsource your work?</h2>
-          <p>Nope! At least at this time, I only take on projects that I can handle personally myself. Eventually, it's possible that I would look to start outsourcing but for now if we cannot schedule something further out until I have more availability I'll just make recommendations on where you should look next or make a referral if I can.</p>
+          <p>As a practice, no. Have I done so in the past? Yes.</p>
+          <p>At least at this time, I only take on projects that I can handle personally myself. There have been instances though where, due to life circumstances, something has come up and in order to hit a deadline I have outcourced a piece of a project.</p>
+          <p>However, I do not take on work that I do not intend to complete myself. This means that if I cannot complete the work in the timeframe requested, and it is not an option to schedule out, then I'll provide a referral or at least try to help point you in the right direction.</p>
         </article>
         <article>
           <h2>We're an agency and we need a Shopify developer. Can you help?</h2>
