@@ -63,7 +63,7 @@ export default function Faq() {
         <article>
           <h2>Do you outsource your work?</h2>
           <p>As a practice, no. Have I done so in the past? Yes.</p>
-          <p>At least at this time, I only take on projects that I can handle personally myself. There have been instances though where, due to life circumstances, something has come up and in order to hit a deadline I have outcourced a piece of a project.</p>
+          <p>I only take on projects that I can handle personally myself. There have been instances though where, due to life circumstances, something has come up and in order to hit a deadline I have outcourced a piece of a project.</p>
           <p>However, I do not take on work that I do not intend to complete myself. This means that if I cannot complete the work in the timeframe requested, and it is not an option to schedule out, then I'll provide a referral or at least try to help point you in the right direction.</p>
         </article>
         <article>

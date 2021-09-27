@@ -7,7 +7,7 @@ coverDesc: "man hi-fiving another person with shopify logo over their face in fr
 desc: "What is a Shopify Partner? The perks and benefits for both developers and ultimately the store owner."
 ---
 
-So what exactly is a "shopify partner?" I get this question a lot. Probably because most of my conversations with potential projects start with, "I'm a web developer and Shopify Partner." The most authoritative answer is directly from Shopify's Help Center Docs in their post _[About the Shopify Partner Program](https://help.shopify.com/en/partners/about)_. That's it. That's the blog post. 
+So what exactly is a "Shopify partner?" I get this question a lot. Probably because most of my conversations with potential projects start with, "I'm a web developer and Shopify Partner." The most authoritative answer is directly from Shopify's Help Center Docs in their post _[About the Shopify Partner Program](https://help.shopify.com/en/partners/about)_. That's it. That's the blog post. 
 
 ## Just Kidding  
 
@@ -27,4 +27,4 @@ Shopify is great at listening and anticipating needs of store owners and is cons
 
 ### Shopify Partners versus Shopify Experts  
 
-Shopify Partners should not be confused with Shopify Experts. This is a separate classification that's reserved for folks that have applied and been accepted to Shopify's Expert Marketplace, where folks can hire directly on Shopify's site and pay through that system. The benefits of this are that these Experts have been vetted by Shopify. The potential downside is that they are able to charge significantly more for their expertise. This can be out-of-reach for many store owners.  
+Shopify Partners should not be confused with Shopify Experts. This is a separate classification that's reserved for folks that have applied and been accepted to Shopify's Expert Marketplace, where folks can hire directly on Shopify's site and pay through your Shopify dashboard. The benefits of this are that these Experts have been vetted by Shopify and ease-of-use when it comes to payments. The potential downside is that they can to charge more for their expertise.

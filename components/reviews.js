@@ -11,7 +11,7 @@ export default function Reviews() {
         <p className="text-xl md:text-3xl font-light italic pb-4 text-gray-600">TR Page is the best Shopify expert I’ve interacted with. At first I was hesitant to work with him as there were no reviews, but I quickly learned that was not for a lack of experience, skill, or helpfulness. He absolutely went above and beyond to knock the job out of the park (our website now runs faster than I thought possible, nearly 3x the original speed). The price he charged was more than reasonable, and the biggest highlight for me was the clear and open communication throughout the process. I plan to return to TR Page with all of my web development needs in the future, I can’t recommend him highly enough.</p>
         <p className="text-xl md:text-3xl font-bold"><a href="https://brickerbuilds.com/" aria-label="Go to Bricker Builds website" className="underline go-link">Bricker Builds</a></p>
       </article>
-      <article className="lg:my-6 py-6 text-center lg:text-left">
+      <article className="lg:my-6 py-6 text-center">
         <p className="text-xl md:text-3xl font-light text-gray-600"><a href="https://ethercycle.com/" aria-label="Go to Ethercycle's webiste" className="underline go-link">Kurt Elster of Ethercycle</a> referred to me once on his podcast as a <em>gentleman</em>. <a href="https://unofficialshopifypodcast.com/episodes/anne-thomas-on-themes-lmxRNEAe" aria-label="Go to ethercycle podcast episode" className="underline go-link">Listen to the episode.</a></p>
       </article>
       <article className="lg:my-6 py-6 text-center lg:text-right">
@@ -35,7 +35,7 @@ export default function Reviews() {
         <p className="text-xl md:text-3xl font-bold"><a href="https://grower-x.com/" aria-label="Go to Grower-X website" className="underline go-link">Grower-X</a></p>
       </article>
       <article className="lg:my-6 py-6 text-center lg:text-left">
-        <p className="text-xl md:text-3xl font-light italic pb-4 text-gray-600">We have worked with Taylor 3 times now, I have been impressed with Taylor's communication before and through out the project's Taylor's work was spot on, with delivery and implemantion. Our first incounter was after 2 unsuccessful attempts from different developers to restore and implement our custom collections pages after a shopify update, Taylor was able to crack the code where others failed. Taylor went above and beyond the scope of works. I would recommend Taylor and definitely work with him again. I am all ready look for more work in the next few months with all the changes that shopify will have coming up in the change over to 2.0.</p>
+        <p className="text-xl md:text-3xl font-light italic pb-4 text-gray-600">We have worked with Taylor 3 times now, I have been impressed with Taylor's communication before and through out the project's Taylor's work was spot on, with delivery and implemantion. Our first incounter was after 2 unsuccessful attempts from different developers to restore and implement our custom collections pages after a Shopify update, Taylor was able to crack the code where others failed. Taylor went above and beyond the scope of works. I would recommend Taylor and definitely work with him again. I am all ready look for more work in the next few months with all the changes that Shopify will have coming up in the change over to 2.0.</p>
         <p className="text-xl md:text-3xl font-bold"><a href="https://www.keeptrackgps.com.au/" aria-label="Go to Keep Track GPS website" className="underline go-link">Keep Track GPS</a></p>
       </article>
       <article className="lg:my-6 py-6 text-center lg:text-right">
@@ -44,7 +44,7 @@ export default function Reviews() {
       </article>
       <article className="lg:my-6 py-6 text-center lg:text-left">
         <p className="text-xl md:text-3xl font-light italic pb-4 text-gray-600">Amazing, Taylor was so thorough and really clear. We enjoyed working with you Taylor and appreciate your help.</p>
-        <p className="text-xl md:text-3xl font-bold"><a href="https://www.keeptrackgps.com.au/" aria-label="Go to Lamington website" className="underline go-link">Lamington</a></p>
+        <p className="text-xl md:text-3xl font-bold"><a href="https://www.lamington.co.nz/" aria-label="Go to Lamington website" className="underline go-link">Lamington</a></p>
       </article>
     </section>
   )
