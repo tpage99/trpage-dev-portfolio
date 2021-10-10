@@ -49,6 +49,10 @@ export default function Faq() {
           <p>It depends on how our business relationship started. I work with merchants through the Shopify Experts Marketplace, Upwork, and Storetasker along with other organic sources. If our work started through a platform, then payment terms are bound through that service. If not, I use Wave Apps to invoice directly. You'll receive an email with the PDF invoice that is linked to the ability to pay by credit card or even ACH. I've got some folks that write checks, and that's ok too!</p>
         </article>
         <article>
+          <h2>I just got an invoice from The Pages Media, LLC. Is that you?</h2>
+          <p>Yes, that's me. I created an official business, registered in the state of Missouri, and acquired an EIN at the direction of my tax guy (his name is Doug and he is pretty cool <a href="https://www.assurance-cpa.com/" target="_blank" rel="noreferrer">if you ever need a CPA</a>).</p>
+        </article>
+        <article>
           <h2>Is it really safe to send you money online?</h2>
           <p>I completely understand how difficult it can be to hire a freelancer - <Link href="/posts/how-do-you-hire-a-freelancer/"><a> that's why I wrote a post about it</a></Link>. If you're not very comfortable with billing directly, chat with me about options to have funds placed in escrow through one of the platforms I work with, like Upwork or Storetasker. Funds get held in escrow meaning I am not able to touch the money until after you've approved the project! It also ensures that there is an objective third-party between us in case anything goes wrong.</p>
         </article>
