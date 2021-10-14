@@ -41,7 +41,7 @@ export default function Footer() {
       <div className="pt-4">
         <p><Link href="/contact"><a className="go-link">Let's work together.</a></Link></p>
       </div>
-      <p className="pt-6">©TR Page of <a href="/the-pages-media" class="underline">The Pages Media, LLC</a> 2020-{new Date().getFullYear()}.</p>
+      <p className="pt-6">©TR Page of <a href="/the-pages-media" className="underline">The Pages Media, LLC</a> 2020-{new Date().getFullYear()}.</p>
     </section>
   </Fragment>
   )

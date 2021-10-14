@@ -23,13 +23,15 @@ export async function getStaticProps({ params }) {
 }
 
 export default function Post({ postData }) {
+  const site = "https://www.trpage.dev/posts/";
+  const canonicalURL = site + postData.id;
   return (
     <PostsLayout>
       <Head>
         <title>{postData.title}</title>
         <meta property="og:title" content={postData.title} />
         <meta property="og:description" content={postData.desc}/>
-        <meta property="og:url" content={"https://www.trpage.dev/posts/"+postData.id}/>
+        <meta property="og:url" content={canonicalURL}/>
         <meta property="og:site_name" content="TR Page | Web Developer"/>
         <meta property="og:image" content={postData.coverImg} />
         <meta name="twitter:title" content={postData.title}/>
@@ -38,6 +40,7 @@ export default function Post({ postData }) {
         <meta name="twitter:image:alt" content={postData.coverDesc}/>
         <meta name="twitter:card" content="summary"/>
         <meta name="twitter:site" content="@taylorpage71"/>
+        <link rel="canonical" href={canonicalURL} />
       </Head>
       <article className="mb-12">
         <h1 className="text-3xl md:text-6xl font-bold md:font-extrabold mb-0">{postData.title}</h1>
