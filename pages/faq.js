@@ -1,14 +1,17 @@
-import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout";
+import { useRouter } from "next/router";
+import Layout from "../components/layout";
 import Link from "next/link";
 import Start from "../components/start-here"
 
+const siteTitle = "TR Page | FAQs";
+const siteDesc = "Frequently asked questions (FAQs) for services with Web developer and Shopify Expert TR Page. Learn more about how I get paid, how I work, and even what sort of work I do."
+const site = "https://www.trpage.dev";
+const keywords = "services, examples of work, process for services, costs, payment, how to pay, invoice, the pages media, shopify collaborator access, agency support"
+
 export default function Faq() {
+  const canonicalURL = site + useRouter().pathname;
   return (
-    <Layout faq>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
+    <Layout faq title={siteTitle} siteDesc={siteDesc} keywords={keywords} canonicalURL={canonicalURL}>
       <section className="prose prose-xl md:prose-2xl">
         <h1 className="text-3xl md:text-5xl text-center">Frequently Asked Questions (FAQs)</h1>
         <article>

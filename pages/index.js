@@ -1,5 +1,5 @@
-import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout";
+import { useRouter } from "next/router";
+import Layout from "../components/layout";
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Accomplishments from "../components/accomplishments"
@@ -16,12 +16,16 @@ export async function getStaticProps() {
   };
 }
 
+const siteTitle = "TR Page | Shopify Expert";
+const siteDesc = "Web developer and Shopify Expert TR Page helping store owners with everything from theme customizations and full store setups."
+const site = "https://www.trpage.dev";
+const keywords = "shopify, theme customization, conversion rate, speed optimization, shopify partner, shopify expert"
+
 export default function Home() {
+  const canonicalURL = site + useRouter().pathname;
   return (
-    <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
+    <Layout home title={siteTitle} siteDesc={siteDesc} keywords={keywords} canonicalURL={canonicalURL}>
+      <h1 className="hidden">TR Page | Shopify Expert</h1>
       <Accomplishments/>
         <section className="prose prose-xl md:prose-2xl border-b border-gray-300 mb-4 pb-4">
 

@@ -1,8 +1,15 @@
-import React, { useState } from 'react'
-import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout";
+import React, { useState } from 'react';
+import { useRouter } from "next/router";
+import Layout from "../components/layout";
+
+const siteTitle = "TR Page | Contact";
+const siteDesc = "Contact TR Page, Web Developer and Shopify Expert, about your next big project."
+const site = "https://www.trpage.dev";
+const keywords = "contact, shopify project, improve store, start"
 
 const Contact = () => {
+  const canonicalURL = site + useRouter().pathname;
+
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
@@ -62,13 +69,10 @@ const Contact = () => {
   }
 
   return (
-    <Layout contact>
-      <Head>
-      <title>{siteTitle}</title>
-      </Head>
+    <Layout contact title={siteTitle} siteDesc={siteDesc} keywords={keywords} canonicalURL={canonicalURL}>
       <main>
-        <h1 className="text-6xl text-center font-bold">Let's talk</h1>
-        <p className="text-center text-xl md:text-3xl font-light italic pb-4 text-gray-600">I'd love to chat about your next project!</p>
+        <h1 className="text-6xl text-center font-bold">Contact</h1>
+        <p className="text-center text-xl md:text-3xl font-light italic pb-4 text-gray-600">Let's talk! I'd love to chat about your next project.</p>
         <p className="text-center text-lg p-6"> Please fill out this short contact form and I'll get back to you within two business days.</p>
       <form onSubmit={handleOnSubmit} action="/success">
       <div className="text-center my-4">

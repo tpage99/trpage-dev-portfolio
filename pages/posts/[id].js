@@ -23,8 +23,27 @@ export async function getStaticProps({ params }) {
 }
 
 export default function Post({ postData }) {
+  function addArticleJsonLd() {
+    return {
+      __html: `{
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "headline": "${postData.title}",
+        "image": ${postData.coverImg},
+        "datePublished": "${postData.date}",
+        "author": {
+            "@type": "Person",
+            "name": "TR Page",
+            "url": "https://www.trpage.dev"
+          }
+        }
+      `
+      }
+    }
+
   const site = "https://www.trpage.dev/posts/";
   const canonicalURL = site + postData.id;
+
   return (
     <PostsLayout>
       <Head>
@@ -41,6 +60,11 @@ export default function Post({ postData }) {
         <meta name="twitter:card" content="summary"/>
         <meta name="twitter:site" content="@taylorpage71"/>
         <link rel="canonical" href={canonicalURL} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={addArticleJsonLd()}
+          key="article-jsonld"
+        />
       </Head>
       <article className="mb-12">
         <h1 className="text-3xl md:text-6xl font-bold md:font-extrabold mb-0">{postData.title}</h1>

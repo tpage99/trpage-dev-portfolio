@@ -1,5 +1,5 @@
-import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout";
+import { useRouter } from "next/router";
+import Layout from "../components/layout";
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
@@ -13,13 +13,17 @@ export async function getStaticProps() {
   };
 }
 
+const siteTitle = "TR Page | Blog Posts";
+const siteDesc = "Blog posts by Web developer and Shopify Expert TR Page. Projects, case studies, and helpful information on how to improve your Shopify store so you can reach more customers."
+const site = "https://www.trpage.dev";
+const keywords = "shopify, theme customization, conversion rate, speed optimization, tutorial, technique, seo, search engine optimization, technical seo, core web vitals"
+
 export default function Blog({ allPostsData }) {
+  const canonicalURL = site + useRouter().pathname;
   return (
-    <Layout blog>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
+    <Layout blog title={siteTitle} siteDesc={siteDesc} keywords={keywords} canonicalURL={canonicalURL}>
       <section>
+        <h1 className="text-3xl md:text-5xl text-center underline font-bold">Blog Posts</h1>
         <ul>
           {allPostsData.map(({ id, date, title, desc }) => (
             <div>
