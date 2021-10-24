@@ -1,13 +1,16 @@
-import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout";
+import { useRouter } from "next/router";
+import Layout from "../components/layout";
 import Link from "next/link";
 
+const siteTitle = "TR Page | Success";
+const siteDesc = "Successful submission page"
+const site = "https://www.trpage.dev";
+const keywords = "success"
+
 export default function ContactSuccess() {
+  const canonicalURL = site + useRouter().pathname;
   return (
-    <Layout success>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
+    <Layout success title={siteTitle} siteDesc={siteDesc} keywords={keywords} canonicalURL={canonicalURL}>
       <section className="prose prose-xl md:prose-2xl border-b border-gray-300 mb-4 pb-4">
           <h2 className="m-0 p-0 inline">
           You did it!
