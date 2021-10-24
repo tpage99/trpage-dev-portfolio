@@ -29,7 +29,7 @@ export default function Post({ postData }) {
         "@context": "https://schema.org",
         "@type": "NewsArticle",
         "headline": "${postData.title}",
-        "image": ${postData.coverImg},
+        "image": "${postData.coverImg}",
         "datePublished": "${postData.date}",
         "author": {
             "@type": "Person",
