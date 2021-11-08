@@ -1,7 +1,6 @@
 import Link from 'next/link'
 
 const links = [
-  { href: '/#reviews', label: 'Reviews' },
   { href: '/posts', label: 'Blog Posts' },
   { href: '/faq', label: 'FAQs' },
   { href: '/contact', label: 'Contact' }
@@ -20,7 +19,7 @@ export default function Nav() {
           <p className="inline align-bottom text-xl sm:text-2xl md:text-3xl font-hairline mb-0 pb-0">freelance web developer.</p>
         </a>
         </Link>
-      <ul className="flex justify-around flex-wrap my-2 py-6 border-b border-gray-300">
+      <ul className="flex justify-evenly flex-wrap my-2 py-6 border-b border-gray-300">
         {links.map(({ href, label }) => (
           <li className="my-2" key={`${href}${label}`}>
             <a href={href} className="btn-outline no-underline" aria-label={label + " profile"}>

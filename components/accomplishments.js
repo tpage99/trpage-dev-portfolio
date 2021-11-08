@@ -48,6 +48,9 @@ export default function Accomplishments() {
           <h3 className="mt-8 text-2xl font-bold text-gray-700">Senior Shopify Expert on Storetasker</h3>
         </article>
       </div>
+      <div className="text-center">
+        <p>Not convinced? <Link href="#reviews"><a className="go-link underline">Skip down to reviews</a></Link>.</p>
+      </div>
     </section>
   )
 }
