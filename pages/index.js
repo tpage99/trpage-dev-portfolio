@@ -16,7 +16,7 @@ export async function getStaticProps() {
   };
 }
 
-const siteTitle = "TR Page | Freelancer Shopify Expert";
+const siteTitle = "TR Page | Freelance Web Developer and Shopify Expert";
 const siteDesc = "Freelancer Web developer and Shopify Expert TR Page helping store owners with everything from theme customizations and full store setups."
 const site = "https://www.trpage.dev";
 const keywords = "shopify, theme customization, conversion rate, speed optimization, shopify partner, shopify expert, freelance, freelancer, web developer, technical seo"
@@ -25,7 +25,7 @@ export default function Home() {
   const canonicalURL = site + useRouter().pathname;
   return (
     <Layout home title={siteTitle} siteDesc={siteDesc} keywords={keywords} canonicalURL={canonicalURL}>
-      <h1 className="hidden">TR Page | Freelancer Shopify Expert</h1>
+      <h1 className="hidden">{siteTitle}</h1>
       <Accomplishments/>
         <section className="prose prose-xl md:prose-2xl border-b border-gray-300 mb-4 pb-4">
 
