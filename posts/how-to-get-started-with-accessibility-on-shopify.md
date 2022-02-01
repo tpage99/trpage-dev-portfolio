@@ -143,7 +143,13 @@ Improving these experiences are certain to improve the experience for even more 
 
 After starting with an a11y statement, ideally you should start working on your website's a11y. You can start with trying to navigate your website with just your keyboard. Use the tab key to move around the page and make sure there are no key actions missed. You can even turn on a11y software that exists natively on your computer (command + F5 on MacOS for VoiceOver or Win + Ctrl + Enter on Windows for Narrator). Check and see if items are properly announced. While you will not be a pro at using these tools, you can get a general sense of whether your website is doing what it _should_ be doing or not. 
 
-Another possible idea is to run your website through an online a11y tool like from Wave <a href="https://wave.webaim.org/" target="_blank">[link]</a> or the Web Accessibiilty tool by Level Access <a href="https://www.webaccessibility.com/" target="_blank">[link]</a>. I do not recommend something like this unless you're already educated about a11y. Otherwise, it can be pretty overwhelming to see a bunch of errors. Obviously the best thing you can do is talk to an expert.  
+Another possible idea is to run your website through an online a11y tool. A couple of tools that work really well include: 
+
+ - <a href="https://web.dev/measure/" target="_blank">Page quality tool from Google [link]</a>
+ - <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility tool [link]</a> or the 
+ - <a href="https://www.webaccessibility.com/" target="_blank">Web Accessibiilty tool by Level Access [link]</a>
+
+I do not recommend something like this unless you're already educated about a11y. It can be pretty overwhelming to see a bunch of errors but you also may be much better off than you think you are. Obviously the best thing you can do is talk to an expert.  
 
 ### Who Would be Good to Talk To About A11y 
 
