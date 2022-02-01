@@ -7,7 +7,7 @@ coverDesc: "two women looking at each other and dressed in business attire"
 desc: "Hiring freelancers can be hard if you do not know what to watch out for. You do not want to get scammed and you want to hire the right person at the right price."
 ---
 
-In a [previous post](/posts/why-work-with-a-freelancer.md) I talked about the benefits of working with a freelancer over an agency and why it might be the best fit for some people. I included how to go about hiring a freelancer as part of that article, but think it probably deserves its own post. Here are just a couple of quick and practical suggestions on how to properly vette a freelancer. You are, after all, placing a lot of trust and potential business capital in their hands. Remember that the time you invest up front with the freelancer is well worth your time if it frees you up to do other important aspects of your business. 
+In a [previous post](/posts/why-work-with-a-freelancer) I talked about the benefits of working with a freelancer over an agency and why it might be the best fit for some people. I included how to go about hiring a freelancer as part of that article, but think it probably deserves its own post. Here are just a couple of quick and practical suggestions on how to properly vette a freelancer. You are, after all, placing a lot of trust and potential business capital in their hands. Remember that the time you invest up front with the freelancer is well worth your time if it frees you up to do other important aspects of your business. 
 
 ## So How Do You Hire a Freelancer?  
 
