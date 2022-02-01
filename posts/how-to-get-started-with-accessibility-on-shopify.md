@@ -146,7 +146,7 @@ After starting with an a11y statement, ideally you should start working on your 
 Another possible idea is to run your website through an online a11y tool. A couple of tools that work really well include: 
 
  - <a href="https://web.dev/measure/" target="_blank">Page quality tool from Google [link]</a>
- - <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility tool [link]</a> or the 
+ - <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility tool [link]</a>
  - <a href="https://www.webaccessibility.com/" target="_blank">Web Accessibiilty tool by Level Access [link]</a>
 
 I do not recommend something like this unless you're already educated about a11y. It can be pretty overwhelming to see a bunch of errors but you also may be much better off than you think you are. Obviously the best thing you can do is talk to an expert.  
